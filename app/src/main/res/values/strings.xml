@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Стеганография</string>
+    <string name="tab_text_1">Интегрировать</string>
+    <string name="tab_text_2">Извлечь</string>
+    <string name="todo">TODO</string>
+    <string name="picture_info">Изображение</string>
+    <string name="text_info">Текст</string>
+    <string name="text_int_hint">Введите текст для интегрирования</string>
+    <string name="bin_int_hint">Введите посл. для интегрирования</string>
+    <string name="bit_info">Битовая последовательность</string>
+    <string name="click_int">Нажмите, чтобы выбрать картинку \n для интегирования</string>
+    <string name="click_out">Нажмите, чтобы выбрать картинку \n для извлечения</string>
+</resources>
