@@ -23,7 +23,7 @@ class DecodeFragment(fm: FragmentManager): Fragment() {
         binding= FragmentDecodeBinding.inflate(inflater,container,false)
         binding.interImage.setOnClickListener(View.OnClickListener {
             val intent: Intent = Intent()
-            intent.action=Intent.ACTION_PICK
+            intent.action=Intent.ACTION_GET_CONTENT
             intent.setType("image/*");
             (activity as MainActivity).startActivityForResult(intent, PICK_IMG_CODE_FOR_OUT)
         })
